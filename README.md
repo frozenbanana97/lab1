@@ -275,6 +275,7 @@ In your respository folder, you will find a *README.md* file which contains the 
 You can edit a markdown file (like any other file) using any standard text editor (e.g. Notepad, or even Vim). There are many text/code editors out there: you can do your own research to find one you like (Atom is popular on Mac, whereas on PC I would recommend Notepad++). You can refer to the following resources to help you here:
 
 - Live markdown preview (useful if your text editor doesn't provide one): https://markdownlivepreview.com/
+- Markdown guide by Github: https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 - Markdown syntax cheat sheet: https://www.markdownguide.org/cheat-sheet/
 - For generating tables in markdown: https://www.tablesgenerator.com/markdown_tables
 - For generating ToCs: https://ecotrust-canada.github.io/markdown-toc/
@@ -306,5 +307,5 @@ Note that you can delete the entire virtual Python environment you created by si
 
 # Deliverables
 
-Full points are awarded to successfully pushing (3) changes to the repository you made based on these lab instructions: your requirements list, jupyter notebook file, and the markdown modifications you made to the README file. 
+Full points are awarded to successfully pushing (3) changes to the repository you made based on these lab instructions: your requirements list, jupyter notebook file, and the markdown modifications you made to the README file.
 
