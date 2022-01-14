@@ -243,7 +243,7 @@ Congratulations! You are now running a local version of Python 3. Note that when
 
 Today, we will only install [JupyterLab](https://jupyter.org/) using [pip](https://pypi.org/project/pip/). Jupyterlab is a great interactive notebook for Python that we will be using throughout the course. Pip is a mainstream package installer for Python that you will also use throughout the course to install packages.
 
-- Make sure you're in your lab folder and your virtual environment is activated (`. venv3.10.1/bin/activate`) if it is not already.
+- Make sure you're in your lab folder and your virtual environment is activated (`. venv3.10.1/bin/activate`, or in some cases `. venv3.10.1/Scripts/activate`) if it is not already.
 - Enter `pip list`. This will show you the packages you currently have installed in your virtual environment (not many, basically the ones you need by default to get started!)
 - Enter `pip install jupyterlab`
 - When installed, enter `pip list` again: you will see that your jupyterlab installation required the installation of quite a few other packages. These are **dependancies**: packages that the jupyterlab package depends on to function properly.
@@ -293,7 +293,7 @@ Git keeps track of changes made inside a repository. Some changes have been made
 
 - Enter `git status` to see what the current situation is in regard to your version history. This will tell you that there are new files in your repository that are untracked. What this means is that git notices they're there, but since they are untracked, changes you make to them (e.g. modifications to code inside these files) aren't noticed by git. If you want git to track changes to files and make them part of the repository, you need to add them to the *staging area*.
 - Let's add your new files to the repo: `git add lab1.ipynb requirements.txt`. Now enter `git status` again: this will tell you that the new files were added, and are ready to be *committed*. Read more on what git commits are [here](https://github.com/git-guides/git-commit). You should also enter `git add README.md` to add this file's modifications to the staging area.
-- To commit a snapshot of your work to the repo history, enter `git commit -m 'add jupyter notebook, pip requirements and modify readme`. This could be considered a lot to add to one commit: separating these into different commits could be useful if we wanted to revert to a particular change later, but for this lab, we don't need to be that detailed. Note that the message in your commit command following the `-m` argument should always be a brief description of the changes you are committing. See [this reference](http://udacity.github.io/git-styleguide/) on recommended standard wording for git commits.
+- To commit a snapshot of your work to the repo history, enter `git commit -m 'add jupyter notebook, pip requirements and modify readme'`. This could be considered a lot to add to one commit: separating these into different commits could be useful if we wanted to revert to a particular change later, but for this lab, we don't need to be that detailed. Note that the message in your commit command following the `-m` argument should always be a brief description of the changes you are committing. See [this reference](http://udacity.github.io/git-styleguide/) on recommended standard wording for git commits.
 - Finally, push your changes (your new commit) to your remote repository at Github.com: `git push`. You will be asked to enter your Github credentials once more.
 
 ### Exiting your virtual environment
