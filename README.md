@@ -235,7 +235,7 @@ Python versions since 3.3 come with a module called [venv](https://docs.python.o
 >You can name your virtual environments whatever you want (they're just folders with python source code in them). However, I find it useful to name them based on the package that made it (*venv*) and the Python version that is installed inside it (3.10.1, in this case).
 
 - Now enter `ls` and you should see the new folder containing a new localized Python installation alongside the git repo you cloned (these two folders can be considered *sibling* directories). Any Python packages installed with your virtual environment acivated will be installed inside this new folder.
-- To activate your virtual environment: `. venv3.10.1/bin/activate`
+- To activate your virtual environment: `. venv3.10.1/bin/activate` (or in some setups it might instead be `. venv3.10.1/Scripts/activate`).
 
 Congratulations! You are now running a local version of Python 3. Note that when a virtual environment is active, all python commands in the active command line interface will refer to the Python installation of that virtual environment. This means that packages installed on your computer's system-wide Python installation are not accessible.
 
@@ -243,7 +243,7 @@ Congratulations! You are now running a local version of Python 3. Note that when
 
 Today, we will only install [JupyterLab](https://jupyter.org/) using [pip](https://pypi.org/project/pip/). Jupyterlab is a great interactive notebook for Python that we will be using throughout the course. Pip is a mainstream package installer for Python that you will also use throughout the course to install packages.
 
-- Make sure you're in your lab folder and your virtual environment is activated (`. venv3.10.1/bin/activate`, or in some cases `. venv3.10.1/Scripts/activate`) if it is not already.
+- Make sure you're in your lab folder and your virtual environment is activated (`. venv3.10.1/bin/activate`) if it is not already.
 - Enter `pip list`. This will show you the packages you currently have installed in your virtual environment (not many, basically the ones you need by default to get started!)
 - Enter `pip install jupyterlab`
 - When installed, enter `pip list` again: you will see that your jupyterlab installation required the installation of quite a few other packages. These are **dependancies**: packages that the jupyterlab package depends on to function properly.
