@@ -1,7 +1,6 @@
 
 ## Contents
 
-  * [Contents](#contents)
   * [Overview](#overview)
 - [Setting Up](#setting-up)
   * [Opening Command Line](#opening-command-line)
