@@ -35,6 +35,8 @@
 
 The goal of this lab is to get Git and Jupyterlab up and running so you can start programming collaboratively and interactively in Python as of the next lab session. There are several ways of getting there depending on your particular setup. To do this, we have to start with the command line, where we will install and configure Python, among other things...
 
+Estimated time for the familiar reader: 45 min.
+
 # Setting Up
 
 ## Opening Command Line
