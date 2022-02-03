@@ -158,7 +158,7 @@ Now that you have your package manager installed, we need to install pyenv.
 
 ## Navigating Command Line
 
-Now that you've got a version 3 of Python installed, let's create a project folder for today's lab.
+Now that you've got a version 3 of Python installed, let's create a project folder for today's lab (if you are using Windows DOS, then you will need to look up the [equivalencies](http://archive.download.redhat.com/pub/redhat/linux/7.3/en/doc/RH-DOCS/rhl-gsg-en-7.3/ch-doslinux.html) to the commands below).
 - Let's start by identifying our location in our file system: `pwd` (`cd` in DOS)
   - This shows you the directory in which you are currently sending commands
 - To view what folders exist in the current directory, enter `ls` (`dir` in DOS)
