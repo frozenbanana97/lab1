@@ -296,6 +296,7 @@ Git keeps track of changes made inside a repository. Some changes have been made
 - Let's add your new files to the repo: `git add lab1.ipynb requirements.txt`. Now enter `git status` again: this will tell you that the new files were added, and are ready to be *committed*. Read more on what git commits are [here](https://github.com/git-guides/git-commit). You should also enter `git add README.md` to add this file's modifications to the staging area.
 - To commit a snapshot of your work to the repo history, enter `git commit -m 'add jupyter notebook, pip requirements and modify readme'`. This could be considered a lot to add to one commit: separating these into different commits could be useful if we wanted to revert to a particular change later, but for this lab, we don't need to be that detailed. Note that the message in your commit command following the `-m` argument should always be a brief description of the changes you are committing. See [this reference](http://udacity.github.io/git-styleguide/) on recommended standard wording for git commits (the point on using an *imperative tone* is especially relevant).
 - Finally, push your changes (your new commit) to your remote repository at Github.com: `git push`. You will be asked to enter your Github credentials once more.
+  - If you would like to save your Github credentials to avoid needing to paste in your access token manually everytime, then run the following command after your push: `git config --global credential.helper cache`
 
 ### Exiting your virtual environment
 
